@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #1E1E28;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(189, 189, 189);
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(26, 26, 32);
+}
+
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+
+
+*{
+font-family: 'Lora', serif;
+
+}
+
+.fontxxx{
+  font-family: 'Yellowtail', cursive;
+}
+
+
+
+.circle-wrap {
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  background: #e6e2e7;
+  border-radius: 50%;
+}
+
+.circle-wrap .circleP .mask,
+.circle-wrap .circleP .fill {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  z-index: 0;
+  border-radius: 50%;
+}
+
+.circle-wrap .circleP .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap .circleP .mask .fill {
+  clip: rect(0px, 75px, 150px, 0px);
+  
+}
+
+.circle-wrap .circleP .mask.full,
+.circle-wrap .circleP .fill {
+  animation: fill ease-in-out 3s;
+  transform: rotate(180deg);
+}
+
+@keyframes fill {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+.circle-wrap .inside-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 0;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.cursor {
+  pointer-events: none;
+  position: fixed;
+  display: block;
+  border-radius: 0;
+  top: 0;
+  left: 0;
+  z-index: 9999999999999999;
+}
+
+.circle {
+  position: absolute;
+  display: block;
+  width: 26px;
+  height: 26px;
+  border-radius: 20px;
+  background-color: black;
+}
