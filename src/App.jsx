@@ -4,7 +4,7 @@ import './App.css'
 import Admin from './Pages/Admin';
 import { fetchDocument } from './MyCodes/ed5';
 import SideBar from './componets/SideBar/SideBar';
-import Cursor from './componets/Cursor/Cursor';
+
 
 function App() {
   const [showMenu, setShowMenu] = useState()
@@ -35,7 +35,6 @@ function App() {
 
   return (
     <div className="App h-screen bg-[#1E1E28]">
-      <Cursor />
       {/* SideMenu */}
       <div className={`${showMenu ? 'w-[60%] lg:w-[20%]' : 'w-0 lg:w-0'} right-0 z-20 h-full flex fixed transition-all duration-500 ease-in-out`} >
         <button onClick={toggleMenu} className={`relative ${showMenu ? ' left-14 text-black' : 'text-black hover:text-white bg-white  hover:bg-black p-1 right-12'}   w-10 h-10 text-3xl rounded-xl transition-all duration-500 ease-in-out hover:scale-110 ml-1 mt-14`}>

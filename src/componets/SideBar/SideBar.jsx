@@ -10,7 +10,15 @@ function SideBar() {
     return (
         <div className='fixed h-full w-[290px] bg-[#1E1E28] shadow shadow-black overflow-y-scroll overflow-hidden no-scrollbar'>
             <div className=' fixed z-50 bg-[#252530] p-6 h-[235px] w-[290px]'>
-                <div className='w-[90px] h-[90px] bg-white rounded-full m-auto'></div>
+                <div className=' relative'>
+
+                    <div className='w-[90px] h-[90px] bg-white rounded-full m-auto relative'>
+                        <div className="rounded-full left-[70%] top-[70%] flex justify-center duration-1000 bg-opacity-30 items-center h-6 w-6 transition-all ease-linear animate-ping bg-orange-200 absolute">
+                            <div className="h-4 w-4 m-auto ease-in-out  rounded-full  duration-500 animate-pulse bg-yellow-400">
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <h1 className='text-white text-center m-2 font-bold'>Emmanuel Dike</h1>
                 <h1 className='text-center text-slate-400'>Full-stack Developer</h1>
             </div>
