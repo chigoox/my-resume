@@ -5,19 +5,24 @@ import Skills from './Skills';
 import { AiFillGithub, AiFillLinkedin, AiOutlineDownload } from 'react-icons/ai';
 
 
-function SideBar() {
+function SideBar({ menuOpen }) {
     const otherSkills = ['git, Bash, unity', '0auth2, REST, API', 'serverless functions']
     return (
-        <div className='fixed h-full w-[290px] bg-[#1E1E28] shadow shadow-black overflow-y-scroll overflow-hidden no-scrollbar'>
-            <div className=' fixed z-50 bg-[#252530] p-6 h-[235px] w-[290px]'>
-                <div className='w-[90px] h-[90px] bg-white rounded-full m-auto'></div>
-                <h1 className='text-white text-center m-2 font-bold'>Emmanuel Dike</h1>
-                <h1 className='text-center text-slate-400'>Full-stack Developer</h1>
+        <div className={`${menuOpen ? 'w-[200px]' : 'w-0'} z-[99] trans fixed h-full  bg-black-900 shadow shadow-black overflow-y-scroll overflow-hidden no-scrollbar`}>
+            <div className={`fixed z-50 bg-black-800 p-6 h-[235px] trans ${menuOpen ? 'w-[200px]' : 'w-0 opacity-0'}`}>
+                {menuOpen &&
+                    <div className={`${menuOpen ? 'w-full' : 'w-0'} trans-slow`}>
+                        <div className='w-[90px] h-[90px] bg-white rounded-full m-auto'></div>
+                        <h1 className='text-white text-center m-2 font-bold trans'>Emmanuel Dike</h1>
+                        <h1 className='text-center text-slate-400 trans'>Full-stack Developer</h1>
+                    </div>
+                }
             </div>
-            <div className='bg-[#252530] p-6 h-[235px] w-[290px]'>
+
+            <div className='bg-black-800 p-6 h-[235px] w-[200px]'>
             </div>
             <div className='p-4 text-sm'>
-                <div className='flex justify-between p-1'>
+                <div className='flex text-xs justify-between p-1'>
                     <h1 className='font-bold text-white'>Residence:</h1>
                     <h1 className='text-slate-400'>United States</h1>
                 </div>
@@ -34,14 +39,14 @@ function SideBar() {
 
             </div>
 
-            <div className='w-[90%] border-b m-auto border-slate-600'></div>
+            <div className='w-[90%] border-b m-auto border-gray-900'></div>
             <div className='w-full'>
-                <div className='flex justify-around gap-10 scale-[.6]'>
+                <div className='flex justify-around  gap-10 scale-[.4]'>
                     <CircleP per={'100%'} lang={'English'} />
                     <CircleP per={'100%'} lang={'Igbo'} />
                 </div>
             </div>
-            <div className='w-[90%] border-b m-auto border-slate-600'></div>
+            <div className='w-[90%] border-b m-auto border-gray-900'></div>
             <div className='flex flex-col items-center p-4'>
                 <LineP per={'90%'} name={'HTML'} />
                 <LineP per={'90%'} name={'CSS'} />

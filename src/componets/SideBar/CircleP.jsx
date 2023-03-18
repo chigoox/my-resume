@@ -7,14 +7,14 @@ function CircleP({ per, lang }) {
                 <div className="circleP">
 
                     <div className="mask full">
-                        <div className="fill bg-rose-700"></div>
+                        <div className="fill bg-rose-500"></div>
                     </div>
 
                     <div className="mask half">
-                        <div className="fill bg-rose-700"></div>
+                        <div className="fill bg-rose-500"></div>
                     </div>
 
-                    <div className="text-white inside-circle bg-[#1E1E28]">
+                    <div className="text-white inside-circle bg-black-900">
                         {per}
                     </div>
 

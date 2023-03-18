@@ -7,8 +7,8 @@ function LineP({ per, name }) {
                 <h1>{name}</h1>
                 <h1>{per}</h1>
             </div>
-            <div className='h-1 bg-[#191923] w-full rounded-full'>
-                <div className={`bg-rose-700 w-[${per}] h-full`}></div>
+            <div className='h-1 bg-black-800 w-full rounded-full'>
+                <div className={`bg-rose-500 w-[${per}] h-full`}></div>
             </div>
         </div>
     )

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-  background-color: #1E1E28;
+  background-color: black;
 }
 
 
@@ -89,6 +89,18 @@ font-family: 'Lora', serif;
   transform: rotate(180deg);
 }
 
+
+.bg-black-900{
+
+  background-color: #070707;
+}
+.bg-black-800 {
+
+  background-color: #131313;
+}
+
+
+
 @keyframes fill {
   0% {
     transform: rotate(0deg);
@@ -131,4 +143,16 @@ font-family: 'Lora', serif;
   height: 26px;
   border-radius: 20px;
   background-color: black;
+}
+
+.trans-slow {
+  transition: all 1000ms ease-in-out;
+}
+
+.trans {
+  transition: all 500ms ease-in-out;
+}
+
+.trans-fast {
+  transition: all 100ms ease-in-out;
 }

@@ -4,7 +4,7 @@ import { handleInput5, addToDatabase } from '../MyCodes/ed5'
 import MenuButton from '../componets/MenuButton'
 
 
-function Admin() {
+function Portfolio() {
 
     return (
         <div className='bg-black h-full w-full relative overflow-y-scroll flex flex-col justify-center border-black border items-center'>
@@ -12,4 +12,4 @@ function Admin() {
     )
 }
 
-export default Admin
+export default Portfolio
