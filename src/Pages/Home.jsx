@@ -57,7 +57,7 @@ function Home() {
             <div className="flex justify-between gap-10">
                 <div className='w-[50%] group hover:w-[55%] shadow-black shadow relative trans-slow h-32 rounded-r-full bg-black overflow-hidden'>
 
-                    <a href='https:github.com/chigoox' target="_blank" rel="noopener noreferrer" className='h-full w-full bg-gradient-to-r flex justify-end items-center p-2 z-10 from-black to-rose-500 absolute  hover:opacity-10 trans-slow opacity-75'>
+                    <a href='https:github.com/chigoox' target="_blank" rel="noopener noreferrer" className='h-full w-full bg-gradient-to-r flex justify-end items-center p-2 z-10 from-black to-rose-500 absolute rounded-r-full  hover:opacity-10 trans-slow opacity-75'>
                         <h1 className='text-5xl text-bold text-white group-hover: trans-slow'>GitHub</h1>
                     </a>
                     <img className='w-full group-hover:scale-105 trans-slow h-full object-cover rounded-r-full' src="https://github.githubassets.com/images/modules/site/codespaces/illo-hero-ide.png?width=2496&format=webpll" alt="" />
@@ -65,7 +65,7 @@ function Home() {
 
                 </div>
 
-                <div className='my-32 md:my-20'></div>
+                <div className='my-32 md:my-32 lg:w-20'></div>
 
                 <div className='text-sm w-1/2  h-32  p-2 md:text-base'>
                     <h1 className='text-white hover:first-letter:bg-rose-500 first-letter:bg-black first-letter:text-4xl  w-[90%] md:w-1/2 hover:scale-105 trans-slow'>
