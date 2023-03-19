@@ -33,7 +33,7 @@ function Home() {
                     </h1>
                 </div>
 
-                <div className=" hover:h-[26rem] group bg-white  trans-slow h-96 w-60 relative right-0 rounded-b-3xl overflow-hidden">
+                <div className=" hover:h-[26rem] group  trans-slow h-96 w-60 relative right-0 rounded-b-3xl overflow-hidden">
                     <img src={MYPIC} alt="" className='w-full h-full object-cover group-hover:scale-110 trans-slow' />
                 </div>
 
@@ -42,10 +42,10 @@ function Home() {
             <div className='my-20'></div>
 
             <div className="h-[90%] flex flex-col justify-center items-center gap-4">
-                <h1 className='text-white text-2xl font-bold w-fit m-auto hover:scale-105 trans-slow'>Featured Portfolio</h1>
+                <h1 className='text-white text-7xl font-bold w-fit m-auto hover:scale-105 trans-slow'>Featured Portfolio</h1>
                 <div className='flex flex-col p-2   justify-center items-center md:flex-row gap-4 h-full w-full'>
                     <div className='h-60 w-full group overflow-hidden relative no-scrollbar md:h-96 md:w-96  hover:scale-105 trans rounded-3xl'>
-                        <a href='https://voidcard.netlify.app' target="_blank" rel="noopener noreferrer" className='h-full w-full bg-gradient-to-r flex-col flex justify-center items-center p-2 z- from-black to-rose-500 absolute   hover:opacity-50 trans-slow opacity-95'>
+                        <a href='https://voidcard.netlify.app' target="_blank" rel="noopener noreferrer" className='h-full w-full bg-gradient-to-r flex-col flex justify-center items-center p-2 z- from-black to-gray-800 -500 absolute   hover:opacity-50 trans-slow opacity-95'>
                             <h1 className='text-5xl md:text-left text-center font-bold text-white group-hover:text-opacity-0 trans-slow'>Humaine Grandeur</h1>
                             <h1 className=' text-sm text-white group-hover:text-opacity-0 trans-slow'>Urban clothing line</h1>
                         </a>
@@ -61,7 +61,7 @@ function Home() {
 
                         </button>
                         <button className='   w-full md:w-96 rounded-3xl group h-48 hover:scale-105 overflow-hidden relative trans'>
-                            <a href='https://tribalart.netlify.app' target="_blank" rel="noopener noreferrer" className='h-full w-full bg-gradient-to-r flex-col flex justify-center items-center p-2  from-black to-rose-500 absolute   hover:opacity-50 trans-slow opacity-80'>
+                            <a href='https://tribalart.netlify.app' target="_blank" rel="noopener noreferrer" className='h-full w-full bg-gradient-to-r flex-col flex justify-center items-center p-2  from-black to-gray-900 absolute   hover:opacity-50 trans-slow opacity-80'>
                                 <h1 className='text-5xl font-bold text-white group-hover:text-opacity-0 trans-slow'>Tribal Art</h1>
                                 <h1 className=' text-sm text-white group-hover:text-opacity-0 trans-slow'>Art gallary and shop</h1>
                             </a>
@@ -79,7 +79,7 @@ function Home() {
                 <div className='w-[50%] group hover:w-[55%] shadow-black shadow relative trans-slow h-32 rounded-r-full bg-black overflow-hidden'>
 
                     <a href='https://github.com/chigoox' target="_blank" rel="noopener noreferrer" className='h-full w-full bg-gradient-to-r flex justify-end items-center p-2 z-10 from-black to-rose-500 absolute rounded-r-full  hover:opacity-50 trans-slow opacity-80'>
-                        <h1 className='text-5xl font-bold text-white group-hover: trans-slow'>GitHub</h1>
+                        <h1 className='text-4xl md:text-5xl font-bold text-white group-hover: trans-slow'>GitHub</h1>
                     </a>
                     <img className='w-full group-hover:scale-105 trans-slow h-full object-cover rounded-r-full' src="https://github.githubassets.com/images/modules/site/codespaces/illo-hero-ide.png?width=2496&format=webpll" alt="" />
 
@@ -89,7 +89,7 @@ function Home() {
                 <div className='my-32 md:my-32 lg:w-20'></div>
 
                 <div className='text-sm w-1/2  h-32  p-2 md:text-base'>
-                    <h1 className='text-white hover:first-letter:bg-rose-500 first-letter:bg-black first-letter:text-4xl  w-[90%] md:w-1/2 hover:scale-105 trans-slow'>
+                    <h1 className='text-white hover:first-letter:bg-rose-500 first-line:text-xl first-letter:bg-black first-letter:text-4xl  w-[90%] md:w-1/2 hover:scale-105 trans-slow'>
                         Explore all of my public
                         code repositories on GitHub
                         and gain insight into my
@@ -100,7 +100,7 @@ function Home() {
             </div>
             <div className="flex justify-between gap-10">
                 <div className='text-sm w-1/2  h-32  p-2 md:text-lg flex justify-end'>
-                    <h1 className='text-white hover:first-letter:bg-rose-500 first-letter:bg-black first-letter:text-4xl text-right w-[90%] md:w-1/2 hover:scale-105 trans-slow'>
+                    <h1 className='text-white first-line:text-xl hover:first-letter:bg-rose-500 first-letter:bg-black first-letter:text-4xl text-right w-[90%] md:w-1/2 hover:scale-105 trans-slow'>
                         Experience a collection of
                         interactive games created
                         by me using RPG Maker and
@@ -110,7 +110,7 @@ function Home() {
                 <div className='w-[50%] hover:w-[55%] overflow-hidden relative group trans-slow h-32 rounded-l-full '>
 
                     <a href='https://chigoox.itch.io/' target="_blank" rel="noopener noreferrer" className='h-full w-full bg-gradient-to-l flex  items-center justify-start p-2 z-10 from-black to-rose-500 absolute  hover:opacity-50 trans-slow opacity-90'>
-                        <h1 className='text-5xl font-bold text-white  trans-slow'>Itch.io</h1>
+                        <h1 className='text-4xl md:text-5xl font-bold text-white  trans-slow'>Itch.io</h1>
                     </a>
                     <img className='w-full h-full group-hover:scale-105 object-cover trans-slow rounded-l-full' src="https://assets-global.website-files.com/5efc0159f9a97ba05a8b2902/5f1a8cef64b347eced83456f_test-play.jpg" alt="" />
                 </div>
