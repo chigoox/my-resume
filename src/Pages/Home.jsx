@@ -33,8 +33,8 @@ function Home() {
                     </h1>
                 </div>
 
-                <div className=" hover:h-[26rem] group  trans-slow h-96 w-60 relative right-0 rounded-b-3xl overflow-hidden">
-                    <img src={MYPIC} alt="" className='w-full h-full object-cover group-hover:scale-110 ounded-b-3xl trans-slow' />
+                <div className=" hover:h-[26rem] group  trans-slow h-96 w-60 relative  rounded-b-3xl overflow-hidden overflow-y-hidden">
+                    <img src={MYPIC} alt="" className='w-full h-full object-cover group-hover:scale-110 rounded-b-3xl trans-slow' />
                 </div>
 
             </div>
@@ -45,7 +45,7 @@ function Home() {
                 <h1 className='text-white text-7xl font-bold  w-fit m-auto hover:scale-105 trans-slow'>Featured Portfolio</h1>
                 <div className='flex flex-col p-2   justify-center items-center md:flex-row gap-4 h-full w-full'>
                     <div className='h-60 w-full group overflow-hidden relative no-scrollbar md:h-96 md:w-96  hover:scale-105 trans rounded-3xl'>
-                        <a href='https://voidcard.netlify.app' target="_blank" rel="noopener noreferrer" className='h-full w-full bg-gradient-to-r flex-col flex justify-center items-center p-2 z- from-black to-gray-800 -500 absolute   hover:opacity-50 trans-slow opacity-95'>
+                        <a href='https://voidcard.netlify.app' target="_blank" rel="noopener noreferrer" className='h-full w-full rounded-3xl bg-gradient-to-r flex-col flex justify-center items-center p-2 z- from-black to-gray-800 -500 absolute   hover:opacity-50 trans-slow opacity-95'>
                             <h1 className='text-5xl md:text-left text-center font-bold text-white group-hover:text-opacity-0 trans-slow'>Humaine Grandeur</h1>
                             <h1 className=' text-sm text-white group-hover:text-opacity-0 trans-slow'>Urban clothing line</h1>
                         </a>
@@ -53,7 +53,7 @@ function Home() {
                     </div>
                     <div className='flex flex-col  h-96 w-full md:w-fit  justify-center items-center gap-4'>
                         <button className='bg-red-900 group w-full md:w-96 relative rounded-3xl h-48 hover:scale-105 trans overflow-hidden'>
-                            <a href='https://voidcard.netlify.app' target="_blank" rel="noopener noreferrer" className='h-full w-full bg-gradient-to-r flex-col flex justify-center items-center p-2  from-black to-rose-500 absolute   hover:opacity-50 trans-slow opacity-80'>
+                            <a href='https://voidcard.netlify.app' target="_blank" rel="noopener noreferrer" className='rounded-3xl h-full w-full bg-gradient-to-r flex-col flex justify-center items-center p-2  from-black to-rose-500 absolute   hover:opacity-50 trans-slow opacity-80'>
                                 <h1 className='text-5xl font-bold text-white group-hover:text-opacity-0 trans-slow'>Void Card</h1>
                                 <h1 className=' text-sm text-white group-hover:text-opacity-0 trans-slow'>Digital Bussiness Cards</h1>
                             </a>
@@ -61,7 +61,7 @@ function Home() {
 
                         </button>
                         <button className='   w-full md:w-96 rounded-3xl group h-48 hover:scale-105 overflow-hidden relative trans'>
-                            <a href='https://tribalart.netlify.app' target="_blank" rel="noopener noreferrer" className='h-full w-full bg-gradient-to-r flex-col flex justify-center items-center p-2  from-black to-gray-900 absolute   hover:opacity-50 trans-slow opacity-80'>
+                            <a href='https://tribalart.netlify.app' target="_blank" rel="noopener noreferrer" className='h-full rounded-3xl w-full bg-gradient-to-r flex-col flex justify-center items-center p-2  from-black to-gray-900 absolute   hover:opacity-50 trans-slow opacity-80'>
                                 <h1 className='text-5xl font-bold text-white group-hover:text-opacity-0 trans-slow'>Tribal Art</h1>
                                 <h1 className=' text-sm text-white group-hover:text-opacity-0 trans-slow'>Art gallary and shop</h1>
                             </a>
@@ -109,7 +109,7 @@ function Home() {
                 </div>
                 <div className='w-[50%] hover:w-[55%] overflow-hidden relative group trans-slow h-32 rounded-l-full '>
 
-                    <a href='https://chigoox.itch.io/' target="_blank" rel="noopener noreferrer" className='h-full w-full bg-gradient-to-l flex  items-center justify-start p-2 z-10 from-black to-rose-500 absolute  hover:opacity-50 trans-slow opacity-90'>
+                    <a href='https://chigoox.itch.io/' target="_blank" rel="noopener noreferrer" className='h-full rounded-l-full w-full bg-gradient-to-l flex  items-center justify-start p-2 z-10 from-black to-rose-500 absolute  hover:opacity-50 trans-slow opacity-90'>
                         <h1 className='text-4xl md:text-5xl font-bold text-white  trans-slow'>Itch.io</h1>
                     </a>
                     <img className='w-full h-full group-hover:scale-105 object-cover trans-slow rounded-l-full' src="https://assets-global.website-files.com/5efc0159f9a97ba05a8b2902/5f1a8cef64b347eced83456f_test-play.jpg" alt="" />
