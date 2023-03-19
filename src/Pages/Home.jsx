@@ -64,6 +64,9 @@ function Home() {
 
 
                 </div>
+
+                <div className='my-32 md:my-20'></div>
+
                 <div className='text-sm w-1/2  h-32  p-2 md:text-base'>
                     <h1 className='text-white hover:first-letter:bg-rose-500 first-letter:bg-black first-letter:text-4xl  w-[90%] md:w-1/2 hover:scale-105 trans-slow'>
                         Explore all of my public
