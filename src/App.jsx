@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { AiOutlineMenu, AiOutlineClose, AiFillFacebook, AiFillHome } from "react-icons/ai";
 import { BsFillPersonFill, BsNewspaper } from 'react-icons/bs'
 import './App.css'
-import About from './Pages/Admin';
+import About from './Pages/About';
 import Home from './Pages/Home';
 import Portfolio from './Pages/Portfolio';
 import { fetchDocument } from './MyCodes/ed5';
