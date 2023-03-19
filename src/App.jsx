@@ -59,7 +59,7 @@ function App() {
         </div>
       </div>
       {/* end SideMenu */}
-      <div className=' w-[200px] z-10 fixed'>
+      <div className=' w-[200px] z-[999] fixed'>
         <SideBar menuOpen={showSideBar} />
         <button onClick={toggleSideBar} className={`${showSideBar ? 'left-[80%] invert hover:mx-3' : 'left-0'} group   m-4 trans  z-[100] absolute h-8 w-3 `}>
           <div className='flex'>

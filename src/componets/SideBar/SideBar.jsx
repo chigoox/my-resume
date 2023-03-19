@@ -62,7 +62,7 @@ function SideBar({ menuOpen }) {
                 {otherSkills.map(item => { return (<Skills skill={item} key={item} />) })}
             </div>
             <div className='flex p-4'>
-                <a href="" className=' '>
+                <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/e/2PACX-1vQo-chURV-Y_izv_bhTQbWFQOKp3JvYWPGtRKKmv2-OtY4O3S5axVQfAR00NnRI6nkDv_kPloVOpPjN/pub" className=' '>
                     <div className='transition-all duration-700 ease-in-out hover:text-white hover:scale-110 text-[#8C8C8E] font-bold flex gap-4'>
                         <h1>Download CV</h1>
                         <h1 className='text-2xl '><AiOutlineDownload /></h1>
@@ -71,8 +71,8 @@ function SideBar({ menuOpen }) {
             </div>
 
             <div className='bg-[#23232E] h-12 text-3xl flex justify-center'>
-                <a href="" className='text-[#8C8C8E] m-2 hover:scale-110 transition-all duration-700 ease-in-out'><AiFillGithub /></a>
-                <a href="" className='text-[#8C8C8E] m-2 hover:scale-110 transition-all duration-700 ease-in-out'><AiFillLinkedin /></a>
+                <a href="https://github.com/chigoox" className='text-[#8C8C8E] m-2 hover:scale-110 transition-all duration-700 ease-in-out'><AiFillGithub /></a>
+                <a href="https://www.linkedin.com/in/emmanuel-dike-9861a7186/" className='text-[#8C8C8E] m-2 hover:scale-110 transition-all duration-700 ease-in-out'><AiFillLinkedin /></a>
 
             </div>
 
