@@ -34,7 +34,7 @@ function Home() {
                 </div>
 
                 <div className=" hover:h-[26rem] group  trans-slow h-96 w-60 relative right-0 rounded-b-3xl overflow-hidden">
-                    <img src={MYPIC} alt="" className='w-full h-full object-cover group-hover:scale-110 trans-slow' />
+                    <img src={MYPIC} alt="" className='w-full h-full object-cover group-hover:scale-110 ounded-b-3xl trans-slow' />
                 </div>
 
             </div>
