@@ -41,8 +41,8 @@ function Home() {
 
             <div className='my-20'></div>
 
-            <div className="h-[90%] flex flex-col justify-center items-center gap-4">
-                <h1 className='text-white text-7xl font-bold w-fit m-auto hover:scale-105 trans-slow'>Featured Portfolio</h1>
+            <div className="h-[90%] flex flex-col justify-center items-center p-4 gap-4">
+                <h1 className='text-white text-7xl font-bold  w-fit m-auto hover:scale-105 trans-slow'>Featured Portfolio</h1>
                 <div className='flex flex-col p-2   justify-center items-center md:flex-row gap-4 h-full w-full'>
                     <div className='h-60 w-full group overflow-hidden relative no-scrollbar md:h-96 md:w-96  hover:scale-105 trans rounded-3xl'>
                         <a href='https://voidcard.netlify.app' target="_blank" rel="noopener noreferrer" className='h-full w-full bg-gradient-to-r flex-col flex justify-center items-center p-2 z- from-black to-gray-800 -500 absolute   hover:opacity-50 trans-slow opacity-95'>
