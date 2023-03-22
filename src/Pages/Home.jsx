@@ -49,7 +49,7 @@ function Home() {
                             <h1 className='text-5xl md:text-left text-center font-bold text-white group-hover:text-opacity-0 trans-slow'>Humaine Grandeur</h1>
                             <h1 className=' text-sm text-white group-hover:text-opacity-0 trans-slow'>Urban clothing line</h1>
                         </a>
-                        <iframe className='w-full h-full no-scrollbar' src="https://humainegrandeur.netlify.app/" title="description"></iframe>
+                        <iframe className='w-full h-full no-scrollbar' src="https://humainegrandeur.netlify.app/Shop" title="description"></iframe>
                     </div>
                     <div className='flex flex-col  h-96 w-full md:w-fit  justify-center items-center gap-4'>
                         <button className='bg-red-900 group w-full md:w-96 relative rounded-3xl h-48 hover:scale-105 trans overflow-hidden'>
