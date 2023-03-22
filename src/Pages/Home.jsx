@@ -45,7 +45,7 @@ function Home() {
                 <h1 className='text-white text-7xl font-bold  w-fit m-auto hover:scale-105 trans-slow'>Featured Portfolio</h1>
                 <div className='flex flex-col p-2   justify-center items-center md:flex-row gap-4 h-full w-full'>
                     <div className='h-60 w-full group overflow-hidden relative no-scrollbar md:h-96 md:w-96  hover:scale-105 trans rounded-3xl'>
-                        <a href='https://humainegrandeur.netlify.app/' target="_blank" rel="noopener noreferrer" className='h-full w-full rounded-3xl bg-gradient-to-r flex-col flex justify-center items-center p-2 z- from-black to-gray-800 -500 absolute   hover:opacity-50 trans-slow opacity-95'>
+                        <a href='https://humainegrandeur.netlify.app/Shop' target="_blank" rel="noopener noreferrer" className='h-full w-full rounded-3xl bg-gradient-to-r flex-col flex justify-center items-center p-2 z- from-black to-gray-800 -500 absolute   hover:opacity-50 trans-slow opacity-95'>
                             <h1 className='text-5xl md:text-left text-center font-bold text-white group-hover:text-opacity-0 trans-slow'>Humaine Grandeur</h1>
                             <h1 className=' text-sm text-white group-hover:text-opacity-0 trans-slow'>Urban clothing line</h1>
                         </a>
