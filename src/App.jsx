@@ -1,13 +1,17 @@
 import { useEffect, useState } from 'react'
 import { AiOutlineMenu, AiOutlineClose, AiFillFacebook, AiFillHome } from "react-icons/ai";
 import { BsFillPersonFill, BsNewspaper } from 'react-icons/bs'
+import { MdAttachMoney } from 'react-icons/md'
+import { RiFilePaperFill } from 'react-icons/ri'
 import './App.css'
-import About from './Pages/About';
+import About from './Pages/Services';
 import Home from './Pages/Home';
 import Portfolio from './Pages/Portfolio';
 import { fetchDocument } from './MyCodes/ed5';
 import SideBar from './componets/SideBar/SideBar';
 import MenuButton from './componets/MenuButton';
+import Resume from './Pages/Resume';
+import Services from './Pages/Services';
 
 function App() {
   const [showMenu, setShowMenu] = useState()
@@ -19,12 +23,14 @@ function App() {
   const Icon = ({ item }) => {
     if (item.includes('Home')) {
       return (<AiFillHome color='white' className='m-auto' />)
-    } else if (item.includes('About')) {
-      return (<BsFillPersonFill color='white' className='m-auto' />)
+    } else if (item.includes('Services')) {
+      return (<MdAttachMoney color='white' className='m-auto' />)
     } else if (item.includes('Portfolio')) {
       return (<BsNewspaper color='white' className='m-auto' />)
-
+    } else if (item.includes('Resume')) {
+      return (<RiFilePaperFill color='white' className='m-auto' />)
     }
+
   }
 
 
@@ -32,7 +38,7 @@ function App() {
 
 
 
-  const menuItems = ['Home', 'About', 'Portfolio']
+  const menuItems = ['Home', 'Services', 'Portfolio', 'Resume']
   const menuMap = menuItems.map((item) => {
     return (
       <button key={item} onClick={() => { setSeletctedMenu({ [item]: true }) }}
@@ -78,9 +84,11 @@ function App() {
         </button>
       </div>
       {/* PAGES */}
-      {selectedMenu.About && <About />}
+      {selectedMenu.Services && <Services />}
       {selectedMenu.Home && <Home />}
       {selectedMenu.Portfolio && <Portfolio />}
+      {selectedMenu.Resume && <Resume />}
+      console.log(selectedMenu)
 
 
 

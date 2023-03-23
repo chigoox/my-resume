@@ -126,27 +126,18 @@ font-family: 'Lora', serif;
   font-size: 2em;
 }
 
-.cursor {
-  pointer-events: none;
-  position: fixed;
-  display: block;
-  border-radius: 0;
-  top: 0;
-  left: 0;
-  z-index: 9999999999999999;
-}
 
-.circle {
-  position: absolute;
-  display: block;
-  width: 26px;
-  height: 26px;
-  border-radius: 20px;
-  background-color: black;
+
+.trans-slow-2x {
+  transition: all 2000ms ease-in-out;
 }
 
 .trans-slow {
   transition: all 1000ms ease-in-out;
+}
+
+.trans-mid {
+  transition: all 750ms ease-in-out;
 }
 
 .trans {
@@ -156,3 +147,24 @@ font-family: 'Lora', serif;
 .trans-fast {
   transition: all 100ms ease-in-out;
 }
+
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
