@@ -7,36 +7,45 @@ import laptop from '../assets/laptop.png'
 function Services() {
 
     return (
-        <div className='bg-black h-full overflow-x-hidden w-full relative overflow-y-scroll border-black'>
-            <h1 className='text-white z-10 text-7xl'>Services</h1>
+        <div className='bg-black h-full overflow-x -hidden w-full relative overflow-y-scroll'>
+
             <div className='z-[1] w-full  h-3/4 flex-shrink-0  justify-center flex  relative'>
-                <div className='mt-12 flex-shrink-0  h-[90%] gap-12 md:gap-20 z-10 hover:gap-1  trans-slow w-[90%] md:w-[60%] grid grid-cols-2 grid-rows-2'>
-                    <div className='bg-black rounded trans-slow hover:rounded-xl group relative overflow-hidden'>
+                <div className='mt-24 flex-shrink-0  h-[90%] gap-12 md:gap-20 z-10 hover:gap-1  trans-slow w-[90%] md:w-[60%] grid grid-cols-2 grid-rows-2'>
+                    <a href='#apps' className='bg-black rounded trans-slow hover:rounded-xl group relative overflow-hidden'>
                         <h1 className='text-white font-bold absolute z-[1] text-5xl  flex justify-center items-center hover:scale-105 bg-black bg-opacity-20  hover:bg-opacity-60 trans-slow  w-full h-full m-auto'>Apps</h1>
                         <img className='w-full h-full trans-slow absolute object-cover group-hover:scale-125 ' src="https://img.freepik.com/free-photo/top-view-nutritional-counter-app-concept_23-2149880602.jpg?w=1800&t=st=1679546110~exp=1679546710~hmac=a051eeb9ccdef368cc393cca47d8e55ce3ef4e82bddc8ff0240ed917cd65ed1d" alt="" />
 
-                    </div>
-                    <div className=' rounded trans-slow hover:rounded-xl group relative overflow-hidden'>
-                        <h1 className='text-white font-bold absolute z-[1] text-4xl  flex justify-center items-center hover:scale-105 bg-black bg-opacity-20  hover:bg-opacity-60 trans-slow  w-full h-full m-auto'>Websites</h1>
+                    </a>
+                    <a href='#website' className=' rounded trans-slow hover:rounded-xl group relative overflow-hidden'>
+                        <h1 className='text-white font-bold absolute z-[1] text-3xl md:text-5xl  flex justify-center items-center hover:scale-105 bg-black bg-opacity-20  hover:bg-opacity-60 trans-slow  w-full h-full m-auto'>Websites</h1>
                         <img className='w-full trans-slow h-full absolute group-hover:scale-125 object-cover ' src="https://img.freepik.com/free-psd/hiking-concept-web-template_23-2148467097.jpg?w=1800&t=st=1679546186~exp=1679546786~hmac=8fb994747303f06ee3b100baa1076eccf493de59724aee0aa951ad8d4dee5023" alt="" />
 
-                    </div>
-                    <div className='bg-black rounded trans-slow hover:rounded-xl group relative overflow-hidden'>
-                        <h1 className='text-white font-bold absolute z-[1] text-4xl  flex justify-center items-center hover:scale-105 bg-black bg-opacity-20  hover:bg-opacity-60 trans-slow  w-full h-full m-auto'>Real Estate</h1>
+                    </a>
+                    <a href='#real' className='bg-black rounded trans-slow hover:rounded-xl group relative overflow-hidden'>
+                        <h1 className='text-white font-bold absolute z-[1] text-center text-4xl md:text-5xl  flex justify-center items-center hover:scale-105 bg-black bg-opacity-20  hover:bg-opacity-60 trans-slow  w-full h-full m-auto'>Real Estate</h1>
                         <img className='w-full trans-slow h-full absolute group-hover:scale-125 object-cover ' src="https://droidoo.com/wp-content/uploads/2019/08/Where-Will-AI-Take-the-Real-Estate-Market-in-10-Years-825x500.jpg" alt="" />
 
-                    </div>
-                    <div className='bg-black rounded trans-slow hover:rounded-xl group relative overflow-hidden'>
-                        <h1 className='text-white font-bold absolute z-[1] text-5xl  flex justify-center items-center  bg-black bg-opacity-20 hover:scale-105  hover:bg-opacity-60 trans-slow  w-full h-full m-auto'>Games</h1>
+                    </a>
+                    <a href='#games' className='bg-black rounded trans-slow hover:rounded-xl group relative overflow-hidden'>
+                        <h1 className='text-white font-bold absolute z-[1] text-4xl md:text-5xl  flex justify-center items-center  bg-black bg-opacity-20 hover:scale-105  hover:bg-opacity-60 trans-slow  w-full h-full m-auto'>Games</h1>
                         <img className='w-full trans-slow h-full absolute group-hover:scale-125 object-cover ' src="https://images.squarespace-cdn.com/content/v1/50bc7918e4b012760ae18af1/1572281546515-NR6HN530QAYNHUFHM0UP/mobile-game-development-bangladesh.jpeg?format=2500w" alt="" />
 
-                    </div>
+                    </a>
                 </div>
             </div>
 
+
+
+
+
+
             <div className='h-96'></div>
 
-            <div className='md:gap-2 gap-4 z-10 relative flex flex-wrap md:grid md:grid-cols-4 text-white grid-rows-4 md:grid-rows-2 m-auto w-[90%] md:h-[30rem]'>
+
+
+
+
+            <div id={'apps'} className='md:gap-2 gap-4 z-10 relative flex flex-wrap md:grid md:grid-cols-4 text-white grid-rows-4 md:grid-rows-2 m-auto w-[90%] md:h-[30rem]'>
 
                 <div className='row-span-full md:col-span-2 p-4 rounded-3xl relative bg-black-800'>
                     <div className='z-[10] relative'>
@@ -92,9 +101,23 @@ function Services() {
                 </div>
             </div>
 
+
+
+
+
+
+
             <div className='h-96 text-white m-auto w-full flex justify-center items-center text-6xl'><AiOutlineArrowUp />GET BOTH FOR $750 + ADDONS <AiOutlineArrowDown /></div>
 
-            <div className='md:gap-2 gap-4 z-10 relative flex flex-wrap md:grid md:grid-cols-4 text-white grid-rows-4 md:grid-rows-2 m-auto w-[90%] md:h-[30rem]'>
+
+
+
+
+
+
+
+
+            <div id={'website'} className='md:gap-2 gap-4 z-10 relative flex flex-wrap md:grid md:grid-cols-4 text-white grid-rows-4 md:grid-rows-2 m-auto w-[90%] md:h-[30rem]'>
 
                 <div className='row-span-full md:col-span-2 p-4 rounded-3xl relative bg-black-800'>
                     <div className='z-[10] relative'>
