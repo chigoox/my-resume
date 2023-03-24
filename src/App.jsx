@@ -57,7 +57,7 @@ function App() {
 
       {/* SideMenu */}
       <div className={`${showMenu ? 'w-[200px]' : 'w-0 md:w-[6rem]'} right-0 z-20 h-full flex fixed transition-all duration-500 ease-in-out`} >
-        <button onClick={toggleMenu} className={`relative ${showMenu ? ' -right-12 text-black' : 'text-black  p-1 right-20 md:-right-11'}   w-12 h-8 text-3xl  transition-all duration-500 ease-in-out flex justify-center items-center ml-1 mt-14`}>
+        <button onClick={toggleMenu} className={`relative ${showMenu ? ' -right-12 text-black' : 'text-black  p-1 right-20 md:-right-11'}   w-12 h-8 text-3xl  transition-all duration-500 ease-in-out flex justify-center items-center ml-1 mt-4`}>
           <MenuButton menuOpen={showMenu} />
         </button>
         <div className={`w-full items-center flex flex-col justify-center  bg-[#070707] shadow-sm shadow-black h-full transition-all duration-500 ease-in-out`}>
