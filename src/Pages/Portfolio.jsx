@@ -29,7 +29,7 @@ function Portfolio() {
 
     return (
         <div className='bg-black h-full w-full relative overflow-y-scroll'>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-12 justify-around p-12 grid-flow-row w-full h-fit gap-12 md:gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-4 md:mt-12 justify-around md:p-12 scale-[.8] m-auto md:scale-100 grid-flow-row w-full h-fit gap-12 md:gap-4">
                 <PortItem link={'https://humainegrandeur.netlify.app/'}
                     title={'Humaine Grandeur'}
                     desc={'Urban Clothing'}
