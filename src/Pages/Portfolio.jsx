@@ -35,7 +35,6 @@ function Portfolio() {
                     desc={'Urban Clothing'}
                     tech={['Firebase', 'React', 'Tailwind CSS, Stripe']}
                 />
-
                 <PortItem link={'https://ifcnj.netlify.app/'}
                     title={'IFC Church'}
                     desc={'Church Website'}
