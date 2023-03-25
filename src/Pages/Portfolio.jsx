@@ -33,7 +33,7 @@ function Portfolio() {
                 <PortItem link={'https://humainegrandeur.netlify.app/'}
                     title={'Humaine Grandeur'}
                     desc={'Urban Clothing'}
-                    tech={['Firebase', 'React', 'Tailwind CSS, Stripe']}
+                    tech={['Firebase', 'React', 'Tailwind CSS, Stripe', 'NodeJs', 'Express']}
                 />
                 <PortItem link={'https://ifcnj.netlify.app/'}
                     title={'IFC Church'}
@@ -43,7 +43,7 @@ function Portfolio() {
                 <PortItem link={'https://ahw.netlify.app/'}
                     title={'Anoited Hands Wigs'}
                     desc={'website to download app'}
-                    tech={['React', 'Tailwind CSS']}
+                    tech={['React/Native', 'Tailwind CSS', 'Nodoe/Express']}
                     textSize={'text-xl'}
                 />
                 <PortItem link={'https://voidcard.netlify.app/BV89o4Y7oveCwfnZCpFboVaC0b13'}
