@@ -10,26 +10,13 @@ function Home() {
     return (
         <div className='bg-black  w-full relative flex-col felx'>
             <div className="flex justify-center items-center gap-2">
-                <div className='w-60 md:w-96 p-8 no-scrollbar  h-96 overflow-y-scroll md:overflow-hidden md:p-4  text-white'>
-                    <h1 className='hover:scale-105 hover:first-letter:bg-rose-500 trans-slow text-sm md:text-normal first-letter:text-4xl'>
+                <div className='w-60 md:w-96 p-8 gap-4 no-scrollbar center flex-col  h-96 overflow-y-scroll md:overflow-hidden md:p-4  text-white'>
+                    <h1 className='hover:scale-10 text-center hover:first-letter:bg-rose-500 trans-slow text-2xl md:text-normal first-letter:text-4xl'>
                         A highly skilled and motivated
-                        full-stack developer who is
-                        entirely self-taught and has
-                        been coding since the tender
-                        age of 13. Hailing from Nigeria,
-                        this individual has achieved remarkable
-                        success at just 28 years of age.
-                        Demonstrating an exceptional aptitude
-                        for programming, they have a
-                        particular passion for creating
-                        games with Ruby and C#, as well
-                        as building websites, and apps utilizing
-                        Javascript, React, React Native, and Tailwind CSS.
-                        Their exceptional skills and expertise
-                        are a testament to their unwavering
-                        dedication to the field of technology.
-                        Get ready to be inspired by this exceptional
-                        developer's creativity and ingenuity.
+                        full-stack developer.
+                    </h1>
+                    <h1 className='text-sm text-center'>
+                        If you can Imagine it I can build it!
                     </h1>
                 </div>
 

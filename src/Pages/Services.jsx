@@ -6,6 +6,25 @@ import laptop from '../assets/laptop.png'
 
 function Services() {
 
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            const intersecting = entry.isIntersecting
+            entry.target.classList.add(intersecting ? 'fadeInRight' : '')
+        })
+    },
+        { threshold: 1 }
+    )
+
+
+
+    observer.observe(document.getElementById("apps"))
+
+
+
+
+
+
+
     return (
         <div className='bg-black h-full overflow-x -hidden w-full relative overflow-y-scroll'>
 
@@ -47,7 +66,7 @@ function Services() {
 
             <div id={'apps'} className='md:gap-2 gap-4 z-10 relative flex flex-wrap md:grid md:grid-cols-4 text-white grid-rows-4 md:grid-rows-2 m-auto w-[90%] md:h-[30rem]'>
 
-                <div className='row-span-full md:col-span-2 p-4 rounded-3xl relative bg-black-800'>
+                <div className='row-span-full  md:col-span-2 p-4 rounded-3xl relative bg-black-800'>
                     <div className='z-[10] relative'>
                         <h1 className='font-bold text-4xl'>Building Incredible Apps</h1>
                         <h1 className='font-bold mx-4 text-lg'>At a price right for you</h1>
@@ -66,7 +85,7 @@ function Services() {
 
                     <img className='w-1/2 trans-slow h-1/2 bottom-0 -right-10 md:-right-10 absolute object-cover ' src="https://kitrum.com/wp-content/uploads/2020/05/%D0%94%D0%B8%D0%B7%D0%B0%D0%B8%CC%86%D0%BD-%D0%B1%D0%B5%D0%B7-%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-1-1.png" alt="" />
                 </div>
-                <div className='bg-rose-500 center gap-2 md:col-span-2 p-2 rounded-3xl'>
+                <div className='bg-rose-500 center  relative gap-2 md:col-span-2 p-2 rounded-3xl'>
                     <div className='center flex-col w-1/2 text-sm md:text-base'>
                         <h1>Price for a basic App</h1>
                         <h1 className='text-5xl md:text-8xl'>$500</h1>
@@ -80,7 +99,7 @@ function Services() {
 
                     </div>
                 </div>
-                <div className='bg-white rounded-3xl w-full'>
+                <div className='bg-white rounded-3xl w-full relative '>
                     <div className='p-4  text-black relative overflow-hidden'>
                         <div className="relative z-10">
                             <h1 className='font-bold  text-xl'>Tech used to build Apps</h1>
@@ -95,7 +114,7 @@ function Services() {
                         <img className='w-full trans-slow rounded-3xl bottom-0 top-0 left-0 h-96 absolute group-hover:scale-125 object-cover ' src="https://img.freepik.com/free-photo/businessman-pointing-his-presentation-futuristic-digital-screen_53876-102617.jpg?w=1800&t=st=1679573154~exp=1679573754~hmac=242d835ded67877e4f8c2e52d6a71c67b7d749fcf943e09241549b6ac4842d28" alt="" />
                     </div>
                 </div>
-                <div className='bg-white span rounded-3xl w-full p-4 relative overflow-hidden'>
+                <div className='bg-white span   rounded-3xl w-full p-4 relative overflow-hidden'>
                     <h1 className='text-lg bg-opacity-10  bg-black text-white z-[1] relative h-full w-full flex items-end '>Same technologies that poweres most of your favorite websites and apps such as Instagram, Netflix, Lyft, Shopify, and more</h1>
                     <img className='w-full trans-slow top-0 left-0 h-full absolute group-hover:scale-125 object-cover ' src="https://img.freepik.com/free-photo/rpa-concept-with-blurry-hand-touching-screen_23-2149311914.jpg?w=1800&t=st=1679572892~exp=1679573492~hmac=8d5cc2f9ba1c21e900ea0a72d2dffe713ffc0ad580a372aacfa4d3465e936891" alt="" />
                 </div>
@@ -107,7 +126,7 @@ function Services() {
 
 
 
-            <div className='h-96 text-white m-auto w-full flex justify-center items-center text-6xl'><AiOutlineArrowUp />GET BOTH FOR $750 + ADDONS <AiOutlineArrowDown /></div>
+            <div className='h-[100rem] text-white m-auto w-full flex justify-center items-center text-6xl'><AiOutlineArrowUp />GET BOTH FOR $750 + ADDONS <AiOutlineArrowDown /></div>
 
 
 
@@ -144,7 +163,7 @@ function Services() {
                 <div className='bg-rose-500 center gap-2 md:col-span-2 md:row-span-full p-2 rounded-3xl'>
                     <div className='center flex-col w-1/2 text-sm md:text-base'>
                         <h1>Price for a basic Website</h1>
-                        <h1 className='text-5xl md:text-8xl'>$300</h1>
+                        <h1 className='text-5xl md:text-6xl'>$300</h1>
                     </div>
                     <div className='felx flex-col text-sm md:text-base'>
                         <li className='text-sm'>Data Managment $100-$350</li>

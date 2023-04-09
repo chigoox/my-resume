@@ -6,7 +6,14 @@ body{
   background-color: black;
 }
 
+html,
+body {
+  scroll-behavior: smooth !important;
+}
 
+html:focus-within {
+  scroll-behavior: smooth !important;
+}
 
 /* width */
 ::-webkit-scrollbar {
@@ -89,6 +96,62 @@ font-family: 'Lora', serif;
   transform: rotate(180deg);
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
+@keyframes fadeInRight {
+  from {
+    opacity: 0%;
+    left: 100px;
+  }
+
+  to {
+    opacity: 100%;
+    left: 0px;
+  }
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0%;
+    right: 100px;
+  }
+
+  to {
+    opacity: 100%;
+    right: 0px;
+  }
+}
+
+@keyframes fadeInBottom {
+  from {
+    opacity: 0%;
+    top: 100px;
+  }
+
+  to {
+    opacity: 100%;
+    top: 0px;
+  }
+}
+
+.fadeIn{
+  animation: fadeIn 2s ease-in-out infinite;
+}
+.fadeInRight {
+  animation: fadeInRight 2s ease-in-out infinite;
+}
+.fadeInLeft {
+  animation: fadeInLeft 2s ease-in-out infinite;
+}
+.fadeInBottom {
+  animation: fadeInBottom 2s ease-in-out infinite;
+}
 
 .bg-black-900{
 
