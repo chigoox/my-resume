@@ -17,7 +17,6 @@ function Services() {
 
 
 
-    observer.observe(document.getElementById("apps"))
 
 
 
