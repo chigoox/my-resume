@@ -6,23 +6,6 @@ import laptop from '../assets/laptop.png'
 
 function Services() {
 
-    const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            const intersecting = entry.isIntersecting
-            entry.target.classList.add(intersecting ? 'fadeInRight' : '')
-        })
-    },
-        { threshold: 1 }
-    )
-
-
-
-
-
-
-
-
-
 
     return (
         <div className='bg-black h-full overflow-x -hidden w-full relative overflow-y-scroll'>
@@ -72,7 +55,7 @@ function Services() {
                     </div>
                     <br />
                     <div className='p-4'>
-                        <li className='trans hover:scale-125 w-fit'>Starting at $500</li>
+                        <li className='trans hover:scale-125 w-fit'>Starting at $350</li>
                         <li className='trans font-bold hover:scale-125 w-fit'>Modern</li>
                         <li className='trans font-bold hover:scale-125 w-fit'>Secure</li>
                         <li className='trans font-bold hover:scale-125 w-fit'>Reliable</li>
@@ -87,15 +70,15 @@ function Services() {
                 <div className='bg-rose-500 center  relative gap-2 md:col-span-2 p-2 rounded-3xl'>
                     <div className='center flex-col w-1/2 text-sm md:text-base'>
                         <h1>Price for a basic App</h1>
-                        <h1 className='text-5xl md:text-8xl'>$500</h1>
+                        <h1 className='text-5xl md:text-8xl'>$350</h1>
                     </div>
                     <div className='felx flex-col text-sm md:text-base'>
                         <li className='text-sm'>Data Managment $100-$350</li>
-                        <li>Payment Processing $350</li>
+                        <li>Payment Processing $500</li>
                         <li>Location services $150</li>
                         <li>Authentication $100</li>
                         <li>Booking $100</li>
-
+                        <li>Blog $100</li>
                     </div>
                 </div>
                 <div className='bg-white rounded-3xl w-full relative '>
@@ -144,7 +127,7 @@ function Services() {
                     </div>
                     <br />
                     <div className='p-4'>
-                        <li className='trans hover:scale-125 w-fit'>Starting at $300</li>
+                        <li className='trans hover:scale-125 w-fit'>Starting at $250</li>
                         <li className='trans font-bold hover:scale-125 w-fit'>Modern</li>
                         <li className='trans font-bold hover:scale-125 w-fit'>Responsive</li>
                         <li className='trans font-bold hover:scale-125 w-fit'>Secure</li>
@@ -162,16 +145,15 @@ function Services() {
                 <div className='bg-rose-500 center gap-2 md:col-span-2 md:row-span-full p-2 rounded-3xl'>
                     <div className='center flex-col w-1/2 text-sm md:text-base'>
                         <h1>Price for a basic Website</h1>
-                        <h1 className='text-5xl md:text-6xl'>$300</h1>
+                        <h1 className='text-5xl md:text-6xl'>$250</h1>
                     </div>
                     <div className='felx flex-col text-sm md:text-base'>
                         <li className='text-sm'>Data Managment $100-$350</li>
-                        <li>Payment Processing $350</li>
-                        <li>Location services $150</li>
+                        <li>Payment Processing $500</li>
+                        <li>Location services $250</li>
                         <li>Authentication $100</li>
                         <li>Booking $100</li>
-
-
+                        <li>Blog $100</li>
 
                     </div>
                 </div>
