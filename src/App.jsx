@@ -42,7 +42,7 @@ function App() {
   const menuMap = menuItems.map((item) => {
     return (
       <button key={item} onClick={() => { setSeletctedMenu({ [item]: true }) }}
-        className={`${selectedMenu[item] ? 'bg-rose-500' : 'bg-[#131313]'} w-[90%] h-12 my-8 rounded hover:font-bold hover:text-black hover:bg-rose-600 text-2xl`}
+        className={`${selectedMenu[item] ? 'bg-rose-500' : 'bg-[#131313]'} w-[90%] h-12 my-8 rounded hover:font-bold  hover:text-white text-gray-500 md:text-gray-700 hover:bg-rose-600 text-2xl`}
       >
 
         <h1>{showMenu ? item : <Icon item={item} />}</h1>

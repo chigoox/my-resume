@@ -30,10 +30,25 @@ function Portfolio() {
     return (
         <div className='bg-black h-full w-full relative overflow-y-scroll'>
             <div className="grid grid-cols-1 lg:grid-cols-3 mt-4 md:mt-12 justify-around md:p-12 scale-[.8] m-auto md:scale-100 grid-flow-row w-full h-fit gap-12 md:gap-4">
+                <PortItem link={'https://higherbeingset.netlify.app'}
+                    title={'Higher Beigns E.T'}
+                    desc={'Spiritual Website'}
+                    tech={['React', 'Tailwind CSS', 'Stripe', 'FireBase', 'Serverless Functions']}
+                />
                 <PortItem link={'https://humainegrandeur.netlify.app/'}
                     title={'Humaine Grandeur'}
                     desc={'Urban Clothing'}
                     tech={['Firebase', 'React', 'Tailwind CSS, Stripe', 'NodeJs', 'Express']}
+                />
+                <PortItem link={'https://voidcard.netlify.app/BV89o4Y7oveCwfnZCpFboVaC0b13'}
+                    title={'Void'}
+                    desc={'Digital Business Cards'}
+                    tech={['React', 'Tailwind CSS', 'CommerceJS', 'Firebase']}
+                />
+                <PortItem link={'https://tribalart.netlify.app'}
+                    title={'Tribal Art'}
+                    desc={'Artist Portfolio and shop'}
+                    tech={['React', 'Tailwind CSS', 'commerceJS']}
                 />
                 <PortItem link={'https://ifcnj.netlify.app/'}
                     title={'IFC Church'}
@@ -46,16 +61,7 @@ function Portfolio() {
                     tech={['React/Native', 'Tailwind CSS', 'Nodoe/Express']}
                     textSize={'text-xl'}
                 />
-                <PortItem link={'https://voidcard.netlify.app/BV89o4Y7oveCwfnZCpFboVaC0b13'}
-                    title={'Void'}
-                    desc={'Digital Business Cards'}
-                    tech={['React', 'Tailwind CSS', 'CommerceJS', 'Firebase']}
-                />
-                <PortItem link={'https://tribalart.netlify.app'}
-                    title={'Tribal Art'}
-                    desc={'Artist Portfolio and shop'}
-                    tech={['React', 'Tailwind CSS', 'commerceJS']}
-                />
+
 
 
 
